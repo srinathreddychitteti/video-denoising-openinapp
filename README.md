@@ -43,7 +43,8 @@ Run the script as described in the Installation section.
 The script will download each video from Google Drive, denoise it using BM3D, and save the denoised version in the "output_videos" subdirectory.
 
 ## Output
-Denoised videos are saved in the "output_videos" subdirectory with filenames like "output_video_1.mp4", "output_video_2.mp4", and so on.
+Denoised videos are saved in the "output_videos" subdirectory with filenames like "output1.mp4", "output2.mp4", and so on.
+A sample output file is given at ```https://drive.google.com/file/d/14jSfDAOaPlZkWy4ShOZzQqrUzEmio8Xp/view?usp=sharing```
 
 ## Metrics
 The script calculates the Peak Signal-to-Noise Ratio (PSNR) for each frame, indicating the quality of denoising. The average PSNR over all frames is also provided.
